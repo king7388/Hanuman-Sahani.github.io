@@ -716,3 +716,13 @@ footer .icons li:hover a i{
         font-size: 30px;
     }
 }
+@media only screen and (max-width: 767px) {
+    .desktop-only {
+        display: none;
+    }
+}
+@media only screen and (min-width: 767px) {
+    .mobile-only {
+        display: none;
+    }
+}
